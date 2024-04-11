@@ -1,0 +1,77 @@
+#container .content .analysis_card {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 3rem;
+    gap: 2.4rem;
+}
+
+#container .content .analysis_card .analysis_box {
+    height: 8rem;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.02);
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+.content .analysis_card .analysis_box .analysis_number {
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.analysis_card .analysis_box .analysis_number .top {
+    color: #A0AEC0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.analysis_card .analysis_box .analysis_number .bottom {
+    color: #2D3748;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.analysis_card .analysis_box .analysis_number .bottom span {
+    color: #48BB78;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+}
+
+.analysis_card .analysis_box .icon {
+    border-radius: 2.5rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    background: #4FD1C5;
+    align-items: center;
+    justify-content: center;
+}
+
+#container .content .chart {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    max-height: 400px;
+    margin-top: 5rem;
+}
+
+#container .content .chart .line_char {
+    width: 800px;
+    height: 350px;
+}
+
+#container .content .chart .pie_chart {
+    width: 350px;
+    height: min-content;
+}
+
+#container .content .user_analysis {
+    width: 100%;
+    height: max-content;
+    margin-top: 5rem;
+}
+

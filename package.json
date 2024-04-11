@@ -1,0 +1,21 @@
+{
+  "name": "assignment",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "database": "json-server src/database/database.json"
+  },
+  "devDependencies": {
+    "json-server": "^1.0.0-alpha.23",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "chart.js": "^4.4.2"
+  }
+}

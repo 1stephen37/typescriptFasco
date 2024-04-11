@@ -1,0 +1,585 @@
+.container .content .section1 {
+    justify-content: space-between;
+}
+
+.container .content .section1 .gallery {
+    width: 49%;
+    gap: 2rem;
+    padding: 0 2rem;
+    height: auto;
+}
+
+.container .content .section1 .gallery .gallery_bar {
+    flex-direction: column;
+    gap: 1rem;
+    height: max-content;
+}
+
+.container .content .section1 .gallery .gallery_bar div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8.4rem;
+    height: 8.4rem;
+    padding: 0.6rem;
+    cursor: pointer;
+}
+
+.container .content .section1 .gallery .gallery_bar div img {
+    object-fit: contain;
+}
+
+.container .content .section1 .gallery .main_gallery {
+    width: 49rem;
+    height: 65rem;
+    cursor: pointer;
+}
+
+.container .content .section1 .gallery .main_gallery img {
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 5px;
+}
+
+.container .content .section1 .information {
+    width: 49%;
+    height: auto;
+}
+
+.container .content .section1 .information .logo_mini {
+    color: #666;
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 2rem; /* 142.857% */
+    text-transform: uppercase;
+}
+
+.container .content .section1 .information .name {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.container .content .section1 .information .name h1 {
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.2rem;
+}
+
+.container .content .section1 .information .name svg {
+    cursor: pointer;
+}
+
+.container .content .section1 .information .review {
+    margin-top: 0.5rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container .content .section1 .information .review .flex {
+    gap: 0.5rem;
+}
+
+.container .content .section1 .information .review .flex svg {
+    cursor: pointer;
+}
+
+.container .content .section1 .information .review .count {
+    font-size: 1.8rem;
+    line-height: 2.25rem;
+    font-weight: normal;
+}
+
+.container .content .section1 .information .price {
+    margin-top: 2rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.container .content .section1 .information .price .price_now {
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+    cursor: pointer;
+}
+
+.container .content .section1 .information .price .sale_price {
+    color: #666;
+    font-size: 1.8rem;
+    line-height: 1.92rem;
+    text-decoration-line: line-through;
+    cursor: pointer;
+}
+
+.container .content .section1 .information .price .percent_sale {
+    border-radius: 1.2rem;
+    background: #DA3F3F;
+    padding: 0.25rem 0.969rem 0.25rem 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container .content .section1 .information .view {
+    margin-top: 3rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container .content .section1 .information .view p {
+    line-height: 2.4rem;
+    color: #8A8A8A;
+}
+
+.container .content .section1 .information .count_sale {
+    width: 100%;
+    height: max-content;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+    justify-content: space-between;
+    border-radius: 0.4rem;
+    border: 1px solid #F8CCCC;
+    background: #FDEFEE;
+}
+
+.content .section1 .information .count_sale h1 {
+    color: #FF706B;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+}
+
+.content .section1 .information .count_sale .kit_count {
+    gap: 1rem;
+}
+
+.section1 .information .count_sale .kit_count div {
+    color: #FF706B;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+}
+
+.content .section1 .information .count_end {
+    width: 100%;
+    height: max-content;
+    padding-left: 0.3rem;
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    color: #666;
+    line-height: 2.4rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.content .section1 .information .count_end span {
+    font-weight: 700;
+}
+
+.content .section1 .information .count_down_bar {
+    width: 100%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    cursor: pointer;
+    margin-top: 1.5rem;
+    border-radius: 0.2rem;
+    background: #DEDEDE;
+}
+
+.section1 .information .count_down_bar .count_bar {
+    border-radius: 0.2rem;
+    background: #EF2D2D;
+    height: 0.5rem;
+}
+
+.container .content .section1 .information .size {
+    width: 100%;
+    height: max-content;
+    margin-top: 3rem;
+}
+
+.content .section1 .information .size .heading {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.section1 .information .size .heading a {
+    font-weight: 500;
+}
+
+.content .section1 .information .size .size_select {
+    margin-top: 1.5rem;
+    gap: 1rem;
+    width: 100%;
+}
+
+.section1 .information .size .size_select a {
+    display: block;
+    width: max-content;
+    min-width: 4.5rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid #EEE;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    user-select: none;
+}
+
+.section1 .information .size .size_select a.active {
+    background: #000;
+    color: #fff;
+}
+
+.content .section1 .information .color {
+    width: 100%;
+    height: max-content;
+    margin-top: 2rem;
+}
+
+.section1 .information .color .heading {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+}
+
+.section1 .information .color .heading a {
+    font-weight: 400;
+}
+
+.section1 .information .color .color_option {
+    width: 100%;
+    height: max-content;
+    margin-top: 1.5rem;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.section1 .information .color .color_option div {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.10);
+}
+
+.section1 .information .color .color_option div.active {
+    border-radius: 2rem;
+    box-shadow: 0 0 0 4px #FFF inset, 0 0 0 1px #000;
+}
+
+.content .section1 .information .quantity {
+    width: 100%;
+    height: max-content;
+    margin-top: 3rem;
+}
+
+.content .section1 .information .quantity .heading {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+}
+
+.content .section1 .information .quantity .bottom {
+    width: 100%;
+    height: max-content;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+}
+
+.information .quantity .bottom .count_product {
+    gap: 1rem;
+}
+
+.information .quantity .bottom .count_product a {
+    padding: 1.7rem 1.55rem;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.information .quantity .bottom .count_product div {
+    font-size: 1.8rem;
+    line-height: 6.1rem;
+    font-weight: 600;
+}
+
+.section1 .information .quantity .bottom a.btn_add {
+    display: block;
+    height: 6.1rem;
+    padding: 0 18rem;
+    text-align: center;
+    font-weight: 600;
+    line-height: 6.1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #000;
+    transition: all 0.5s ease-in-out;
+}
+
+.section1 .information .quantity .bottom a.btn_add:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.section1 .information .quantity .bottom a.btn_add:active {
+    color: #000;
+    background-color: #fff;
+}
+
+.content .section1 .information .feature {
+    width: 100%;
+    height: max-content;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.section1 .information .feature > div {
+    padding: 0.5rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.section1 .information .feature > div div {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+.content .section1 .information .delivery {
+    width: 100%;
+    height: max-content;
+    margin-top: 3rem;
+    line-height: 2.7rem;
+}
+
+.content .section1 .information .delivery span {
+    line-height: 2.7rem;
+    font-weight: 700;
+}
+
+.content .section1 .information .free_delivery {
+    width: 100%;
+    height: max-content;
+    margin-top: 1rem;
+    line-height: 2.7rem;
+}
+
+.section1 .information .free_delivery span {
+    font-weight: 700;
+    line-height: 2.7rem;
+}
+
+.content .section1 .information .bank {
+    width: 100%;
+    height: max-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    padding: 2rem 0;
+}
+
+.section1 .information .bank img {
+    width: 32rem;
+    height: max-content;
+}
+
+.section1 .information .bank h1 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+#addCart {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#addCart .main {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: max-content;
+    min-width: 74rem;
+    height: 100%;
+    background: #fff;
+    padding: 4.5rem;
+}
+
+#addCart .main .heading {
+    margin-top: 4.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#addCart .main .heading h1 {
+    font-size: 4.4rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    text-transform: capitalize;
+}
+
+#addCart .main .heading i {
+    font-size: 2.6rem;
+    cursor: pointer;
+}
+
+#addCart .main .sub-heading {
+    margin-top: 2.6rem;
+    font-size: 2.8rem;
+    color: #8A8A8A;
+    font-weight: 400;
+    line-height: 3.2rem;
+    text-transform: capitalize;
+}
+
+#addCart .main .sub-heading span {
+    font-size: 2.8rem;
+    color: #000;
+    font-weight: 700;
+}
+
+#addCart .main .table {
+    margin-top: 5rem;
+    max-height: 35%;
+    overflow: scroll;
+}
+
+#addCart .main .table .row {
+    gap: 2.4rem;
+    padding-bottom: 2rem;
+    margin: 1rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+#addCart .main .table .row .img {
+    width: 16.8rem;
+    height: 22.5rem;
+}
+
+#addCart .main .table .row .img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#addCart .main .table .row .content {
+    flex-direction: column;
+}
+
+#addCart .main .table .row .content .name {
+    font-size: 2.4rem;
+    line-height: 4.2rem;
+    text-transform: capitalize;
+}
+
+#addCart .main .table .row .content .color {
+    color: #8A8A8A;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 4.2rem;
+    text-transform: capitalize;
+}
+
+#addCart .main .table .row .content .price {
+    color: #000;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 4.2rem;
+    text-transform: capitalize;
+}
+
+#addCart .main .table .row .content .quantity {
+    margin-top: 1rem;
+    gap: 3rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#addCart .main .table .row .content .quantity div {
+    color: #171717;
+    font-size: 3.8rem;
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: normal;
+    cursor: pointer;
+}
+
+#addCart .main .table .row .content .quantity p {
+    color: #8A8A8A;
+    font-size: 3.8rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+#addCart .main .checkWrap {
+    align-items: center;
+    margin-top: 12rem;
+    gap: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+#addCart .main .checkWrap label input {
+    width: 3.2rem;
+    height: 3.2rem;
+    outline: 3px solid #000;
+}
+
+#addCart .main .checkWrap p {
+    color: #8A8A8A;
+    font-size: 2.4rem;
+    line-height: 4.2rem;
+    text-transform: capitalize;
+}
+
+#addCart .main .checkWrap p span {
+    color: #000;
+    font-size: 2.4rem;
+}
+
+#addCart .main .subtotal {
+    margin-top: 4rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#addCart .main .subtotal div {
+    font-size: 2.4rem;
+    align-items: center;
+    font-weight: 400;
+    line-height: 3.2rem;
+    text-transform: capitalize;
+}
+
+#addCart .main .checkout {
+    display: block;
+    margin-top: 3rem;
+    width: 100%;
+    min-height: 6.6rem;
+    line-height: 6.6rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.8rem;
+    max-height: max-content;
+    border-radius: 1rem;
+    background: #000;
+    box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+#addCart .main .viewCart {
+    display: block;
+    margin-top: 1.5rem;
+    max-width: 100%;
+    width: 100%;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    text-align: center;
+}

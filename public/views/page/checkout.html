@@ -1,0 +1,94 @@
+<section class="content">
+    <section class="section1">
+        <div class="header_section1 flex">
+            <h1 class="heading">FASCO Checkout</h1>
+        </div>
+        <div class="line"></div>
+        <form method="post" action="/page/checkout" class="main-checkout">
+            <div class="left">
+                <div class="contact flex">
+                    <div class="top flex">
+                        <h1>Contact</h1>
+                        <p>Have an account? <a href="/account/sign_up">Create Account</a></p>
+                    </div>
+                    <label for="emailCheckout">
+                        <input type="text" id="emailCheckout" placeholder="Email Address">
+                    </label>
+                </div>
+                <div class="delivery">
+                    <h1 class="heading">Delivery</h1>
+                    <div class="form flex">
+                        <label for="checkoutOrder" class="checkoutOrder">
+                            <input type="text" disabled placeholder="Order Date" id="checkoutOrder">
+                        </label>
+                        <label for="checkoutName" class="checkoutName">
+                            <input type="text" placeholder="Your Full Name" id="checkoutName">
+                            <span></span>
+                        </label>
+                        <label class="checkoutAddress" for="checkoutAddress">
+                            <input id="checkoutAddress" placeholder="Address" type="text">
+                            <span></span>
+                        </label>
+                        <label for="checkoutPhone">
+                            <input id="checkoutPhone" placeholder="Phone number" type="number">
+                            <span></span>
+                        </label>
+                    </div>
+                    <div class="checkbox flex">
+                        <label for="saveInfor">
+                            <input id="saveInfor" type="checkbox">
+                        </label>
+                        Save This Info for future
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="cart_preview flex"></div>
+                <div class="rdiscountCode flex">
+                    <div>Vouchers</div>
+                    <div id="voucherPlace" class="flex">
+
+                    </div>
+                </div>
+                <div class="total flex">
+                    <div class="flex">
+                        <div>Subtotal</div>
+                        <div id="subTotal">$100.00</div>
+                    </div>
+                    <div id="shipping" class="flex">
+                        <div>Shipping</div>
+                        <div id="shippingOption" class=""></div>
+                    </div>
+                    <div class="flex">
+                        <strong>Total</strong>
+                        <strong id="total">$100.00</strong>
+                    </div>
+                </div>
+                <button type="submit" class="pay">
+                    pay now
+                </button>
+                <div class="copyright">
+                    Copyright © 2022 FASCO . All Rights Reseved.
+                </div>
+            </div>
+        </form>
+    </section>
+    <section class="section7 flex">
+        <div class="banner_left">
+            <img src="./images/section/banner_footer2.svg" alt="">
+        </div>
+        <div class="mid_content">
+            <h1 class="heading">Subscribe To Our Newsletter</h1>
+            <div class="section7_content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
+            </div>
+            <label class="input_index" for="email_index">
+                <input type="text" name="email_index" id="email_index" placeholder="michael@ymail.com" />
+            </label>
+            <a href="" class="btn">Subscribe Now</a>
+        </div>
+        <div class="banner_right">
+            <img src="./images/section/banner_right.svg" alt="">
+        </div>
+    </section>
+</section>

@@ -1,0 +1,902 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Men’s Fashion",
+      "status": 1
+    },
+    {
+      "id": "2",
+      "name": "Women’s Fashion",
+      "status": 1
+    },
+    {
+      "id": "3",
+      "name": "Women Accessories",
+      "status": 1
+    },
+    {
+      "id": "4",
+      "name": "Men Accessories",
+      "status": 1
+    },
+    {
+      "id": "5",
+      "name": "Discount Deals",
+      "status": 1
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "id_category": "2",
+      "name": "Shiny Dress",
+      "image": "product1.svg",
+      "designer": "Al Karam",
+      "review": 42000,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "95.50"
+        },
+        {
+          "size": "M",
+          "price": "105.50"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "2",
+      "id_category": "2",
+      "name": "Long Dress",
+      "image": "product2.svg",
+      "designer": "Daxuo",
+      "review": 55000,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "5.50"
+        },
+        {
+          "size": "M",
+          "price": "15.50"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "3",
+      "id_category": "2",
+      "name": "Full Sweater",
+      "image": "product3.svg",
+      "designer": "Riven",
+      "review": 81000,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "10.50"
+        },
+        {
+          "size": "M",
+          "price": "20.50"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "4",
+      "id_category": "2",
+      "name": "White Dress",
+      "image": "product4.svg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "105.50"
+        },
+        {
+          "size": "M",
+          "price": "115.50"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "5",
+      "id_category": "2",
+      "name": "Colorful Dress",
+      "image": "product5.svg",
+      "designer": "Katha",
+      "review": 111000,
+      "price": "24.70",
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "24.70"
+        },
+        {
+          "size": "M",
+          "price": "34.70"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "6",
+      "id_category": "2",
+      "name": "White Shirt",
+      "image": "product6.svg",
+      "designer": "Abraham",
+      "review": 511000,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "155.50"
+        },
+        {
+          "size": "M",
+          "price": "165.50"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "7",
+      "id_category": "2",
+      "name": "Rounded Red Hat",
+      "image": "product7.svg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "8.50"
+        },
+        {
+          "size": "M",
+          "price": "15.50"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "8",
+      "id_category": "2",
+      "name": "Linen-blend Shirt",
+      "image": "product8.svg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "quantity": 0,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "17.00"
+        },
+        {
+          "size": "M",
+          "price": "27.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "9",
+      "id_category": "2",
+      "name": "Long-sleeve Coat",
+      "image": "product9.svg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "106.00"
+        },
+        {
+          "size": "M",
+          "price": "116.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "10",
+      "id_category": "2",
+      "name": "Rounded Red Hat",
+      "image": "product7.svg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "8.00"
+        },
+        {
+          "size": "M",
+          "price": "18.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "11",
+      "id_category": "1",
+      "name": "Winter Outfits Men",
+      "image": "Winter Outfits Men.jpg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "8.00"
+        },
+        {
+          "size": "M",
+          "price": "18.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "12",
+      "id_category": "1",
+      "name": "Shawl-Collar Ribbed Wool Cardigan",
+      "image": "TOM FORD Shawl-Collar Ribbed Wool Cardigan.jpg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "8.00"
+        },
+        {
+          "size": "M",
+          "price": "18.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "13",
+      "id_category": "1",
+      "name": "Yoga clothes",
+      "image": "yoga-clothes.jpg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "8.00"
+        },
+        {
+          "size": "M",
+          "price": "18.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "14",
+      "id_category": "1",
+      "name": "casual outfit men",
+      "image": "casual outfit men.jpg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "price": 8,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "17.00"
+        },
+        {
+          "size": "M",
+          "price": "27.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "15",
+      "id_category": "1",
+      "name": "Gym Tiempo Libre",
+      "image": "Gym Tiempo Libre.jpg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "17.00"
+        },
+        {
+          "size": "M",
+          "price": "27.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "16",
+      "id_category": "1",
+      "name": "tracksuit track polo",
+      "image": "tracksuit track polo.jpg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "price": 8,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "17.00"
+        },
+        {
+          "size": "M",
+          "price": "27.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "17",
+      "id_category": "3",
+      "name": "Midi Rings",
+      "image": "Midi Rings.jpg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "price": 8,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "17.00"
+        },
+        {
+          "size": "M",
+          "price": "27.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "18",
+      "id_category": "3",
+      "name": "Equestrian Leather Tote Bag",
+      "image": "Equestrian Leather Tote Bag.jpg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "price": 8,
+      "quantity": 80,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "17.00"
+        },
+        {
+          "size": "M",
+          "price": "27.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "19",
+      "id_category": "3",
+      "name": "Grey Bee Watch",
+      "image": "Grey Bee Watch.jpg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "price": 8,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "17.00"
+        },
+        {
+          "size": "M",
+          "price": "27.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "20",
+      "id_category": "3",
+      "name": "cute glasses",
+      "image": "cute glasses.jpg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "price": 8,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "17.00"
+        },
+        {
+          "size": "M",
+          "price": "27.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "21",
+      "id_category": "3",
+      "name": "Moon Barrette",
+      "image": "Moon Barrette.jpg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "17.00"
+        },
+        {
+          "size": "M",
+          "price": "27.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "22",
+      "id_category": "3",
+      "name": "Cute Bracelets",
+      "image": "Cute Bracelets.jpg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "17.00"
+        },
+        {
+          "size": "M",
+          "price": "27.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "23",
+      "id_category": "4",
+      "name": "masculine tie",
+      "image": "masculine tie.jpg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "price": 8,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "17.00"
+        },
+        {
+          "size": "M",
+          "price": "27.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "24",
+      "id_category": "4",
+      "name": "watch for men",
+      "image": "watch.jpg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "price": 8,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "17.00"
+        },
+        {
+          "size": "M",
+          "price": "27.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "25",
+      "id_category": "4",
+      "name": "Leather shoes",
+      "image": "Leather shoes.jpg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "price": 20,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "17.00"
+        },
+        {
+          "size": "M",
+          "price": "27.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "26",
+      "id_category": "4",
+      "name": "belt for men",
+      "image": "belt.jpg",
+      "designer": "Al Karam",
+      "review": 0,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "17.00"
+        },
+        {
+          "size": "M",
+          "price": "27.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "27",
+      "id_category": "4",
+      "name": "suitcase for men",
+      "image": "vali for men.jpg",
+      "designer": "Al Karam",
+      "review": 0,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "17.00"
+        },
+        {
+          "size": "M",
+          "price": "27.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    },
+    {
+      "id": "28",
+      "id_category": "4",
+      "name": "balo for men",
+      "image": "balo.jpg",
+      "designer": "Al Karam",
+      "review": 41000,
+      "price": 20,
+      "quantity": 100,
+      "color": "#000",
+      "sale": 0.33,
+      "properties": [
+        {
+          "size": "S",
+          "price": "17.00"
+        },
+        {
+          "size": "M",
+          "price": "27.00"
+        }
+      ],
+      "images": [],
+      "status": 1
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "tien nguyen",
+      "password": "tien123",
+      "email": "tien1223@gmail.com",
+      "address": "96/8 Nguyen Trai street, distric 10, Ho Chi Minh City",
+      "phone": "0338015135",
+      "image": "",
+      "role": "1",
+      "token": "",
+      "reset": ""
+    },
+    {
+      "id": "2",
+      "name": "tien",
+      "password": "tien123",
+      "email": "longthanh2112@gmail.com",
+      "address": "Ho Chi Minh City",
+      "phone": "0338015135",
+      "image": "",
+      "role": "1",
+      "token": "",
+      "reset": ""
+    },
+    {
+      "id": "3",
+      "name": "tien",
+      "password": "tien123",
+      "email": "ios31@gmail.com",
+      "phone": "0338015135",
+      "address": "Ho Chi Minh City",
+      "image": "",
+      "role": "0",
+      "token": "",
+      "reset": ""
+    },
+    {
+      "id": "6",
+      "name": "Tien Nguyen",
+      "email": "ngamingyahoo@gmail.com",
+      "password": "dasdasdqw",
+      "image": "mario.png",
+      "address": "995/888 hoan kiem",
+      "phone": "0338015137",
+      "role": "1",
+      "token": "",
+      "reset": ""
+    }
+  ],
+  "orders": [
+    {
+      "id_delivery": "65f7e522c6a4ac9cc5ef058d",
+      "id_user": "65f2ccc2c57b330b81d2197a",
+      "id_voucher": "",
+      "name": "tien nguyen",
+      "total": 1669,
+      "email": "tien122@gmail.com",
+      "phone": "0338015135",
+      "address": "Ho Chi Minh City",
+      "order_date": "1/25/2024, 3:25:04 PM",
+      "order_status": 0,
+      "wrap" : false
+    },
+    {
+      "id": "13",
+      "id_user": "1",
+      "name": "tien nguyen",
+      "total": 1669,
+      "email": "tien122@gmail.com",
+      "phone": "0338015135",
+      "address": "Ho Chi Minh City",
+      "order_date": "1/25/2024, 3:25:53 PM",
+      "order_deliver": "cod",
+      "order_status": 1
+    },
+    {
+      "id": "14",
+      "id_user": "1",
+      "name": "tien nguyen",
+      "total": 45,
+      "email": "tien122@gmail.com",
+      "phone": "0338015135",
+      "address": "Ho Chi Minh City",
+      "order_date": "1/26/2024, 8:39:53 AM",
+      "order_status": 1
+    },
+    {
+      "id": "15",
+      "id_user": "1",
+      "name": "tien nguyen",
+      "total": 51,
+      "email": "tien122@gmail.com",
+      "phone": "0338015135",
+      "address": "Ho Chi Minh City",
+      "order_date": "2/4/2024, 12:19:22 PM",
+      "order_status": 1
+    }
+  ],
+  "order_detail": [
+    {
+      "id": "1",
+      "id_product": "1",
+      "id_user": "1",
+      "id_order": "1",
+      "quantity": "2",
+      "price": 23112,
+      "total": 321
+    },
+    {
+      "id": "2",
+      "id_product": "1",
+      "id_order": "1",
+      "id_user": "1",
+      "quantity": "2",
+      "price": 32131,
+      "total": 321
+    },
+    {
+      "id": "3",
+      "id_product": "1",
+      "id_order": "12",
+      "id_user": "1",
+      "quantity": 17,
+      "price": "95.50",
+      "total": "1623.50"
+    },
+    {
+      "id": "4",
+      "id_product": "2",
+      "id_order": "12",
+      "id_user": "1",
+      "quantity": 1,
+      "price": "5.50",
+      "total": "5.50"
+    },
+    {
+      "id": "5",
+      "id_product": "1",
+      "id_order": "13",
+      "id_user": "1",
+      "quantity": 17,
+      "price": "95.50",
+      "total": "1623.50"
+    },
+    {
+      "id": "6",
+      "id_product": "2",
+      "id_order": "13",
+      "id_user": "1",
+      "quantity": 1,
+      "price": "5.50",
+      "total": "5.50"
+    },
+    {
+      "id": "7",
+      "id_product": "1",
+      "id_order": "14",
+      "id_user": "1",
+      "quantity": 17,
+      "price": "95.50",
+      "total": "1623.50"
+    },
+    {
+      "id": "8",
+      "id_product": "2",
+      "id_order": "14",
+      "id_user": "1",
+      "quantity": 1,
+      "price": "5.50",
+      "total": "5.50"
+    },
+    {
+      "id": "9",
+      "id_product": "2",
+      "id_order": "15",
+      "id_user": "1",
+      "quantity": 2,
+      "price": "5.50",
+      "total": "11.00"
+    }
+  ],
+  "reviews": [
+    {
+      "id_product": "1",
+      "id_user": "1",
+      "content": "this is a best product for me",
+      "review_date": ""
+    }
+  ],
+  "vouchers": [
+    {
+      "code": "sale10",
+      "discount": 0.1,
+      "min_amount": "100",
+      "date_end": "20-05-2024",
+      "expired": false
+    }
+  ],
+  "delivery": [
+    {
+      "name": "USPS",
+      "speed": "Slow",
+      "price": "10.99"
+    },
+    {
+      "name": "UPS",
+      "speed": "Fast",
+      "price": "15.99"
+    },
+    {
+      "name": "FedEx",
+      "speed": "Fast",
+      "price": "12.99"
+    }
+  ]
+}

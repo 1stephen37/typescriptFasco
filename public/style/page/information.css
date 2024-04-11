@@ -1,0 +1,98 @@
+.container .content {
+    width: 100%;
+}
+
+.container .content .logo {
+    width: max-content;
+    margin: 2rem auto 0 auto;
+}
+
+.container .content .logo a {
+    font-size: 6.5rem;
+    color: #484848;
+    font-weight: 500;
+    line-height: 100%;
+    text-decoration: none;
+}
+
+.container .content .main-content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container .content .main-content .heading {
+    width: max-content;
+    margin: 4rem auto 0 auto;
+    font-size: 3rem;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.container .content .main-content .avatar {
+    max-width: 30rem;
+    width: max-content;
+    height: max-content;
+    margin: 2rem auto;
+}
+
+.container .content .main-content .avatar img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.container .content .main-content div.flex {
+    text-align: center;
+    margin: 0 auto;
+    width: max-content;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.container .content .main-content div.flex div {
+    min-width: 30rem;
+    max-width: 30rem;
+    font-size: 2rem;
+    line-break: auto;
+}
+
+.container .content .main-content div span {
+    font-size: 2rem;
+}
+
+.container .content .main-content div.grid {
+    margin: 5rem auto;
+    grid-template-columns: 1fr 1fr;
+    width: max-content;
+    place-items: center;
+    gap: 20rem;
+
+}
+
+.container .content .main-content .logout {
+    width: max-content;
+    margin-left: 10rem;
+    cursor: pointer;
+}
+
+.container .content .main-content .update {
+    width: max-content;
+    cursor: pointer;
+}
+
+.container .content .main-content .update,
+.container .content .main-content .update i,
+.container .content .main-content .logout i,
+.container .content .main-content .logout {
+    font-size: 2rem;
+}
+
+.container .content .footer {
+    width: max-content;
+    margin: 4rem 55rem 0 auto;
+    color: #000;
+    font-weight: 400;
+    line-height: 3rem;
+    font-size: 1.8rem;
+}

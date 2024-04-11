@@ -1,0 +1,17 @@
+{
+  "id_category": "660e037f3f26005ee4a9b69e",
+  "name": "balo for men",
+  "image": "balo.jpg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#E1CFB8",
+  "sale": 0.25,
+  "properties": [
+    {
+      "size": "No Size",
+      "price": 499
+    }
+  ],
+  "images": []
+}

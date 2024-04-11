@@ -1,0 +1,663 @@
+[{
+  "_id": {
+    "$oid": "660e05653f26005ee4a9b6a2"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69c"
+  },
+  "name": "Shiny Dress",
+  "image": "product1.svg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#E7B18B",
+  "sale": 0.1,
+  "properties": [
+    {
+      "size": "S",
+      "price": 95
+    },
+    {
+      "size": "M",
+      "price": 105
+    }
+  ],
+  "images": [],
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "660e2f854d3d12cf9b22ecc4"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69c"
+  },
+  "name": "Long Dress",
+  "image": "product2.svg",
+  "designer": "Daxuo",
+  "review": 0,
+  "quantity": 120,
+  "color": "#fff",
+  "sale": 0.15,
+  "properties": [
+    {
+      "size": "S",
+      "price": 20
+    },
+    {
+      "size": "M",
+      "price": 25.5
+    }
+  ],
+  "images": [],
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "660e2fea4d3d12cf9b22ecc5"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69c"
+  },
+  "name": "Full Sweater",
+  "image": "product3.svg",
+  "designer": "Riven",
+  "review": 0,
+  "quantity": 100,
+  "color": "#857061",
+  "sale": 0.2,
+  "properties": [
+    {
+      "size": "S",
+      "price": 30
+    },
+    {
+      "size": "M",
+      "price": 33.5
+    }
+  ],
+  "images": [],
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "660e30404d3d12cf9b22ecc6"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69c"
+  },
+  "name": "White Dress",
+  "image": "product4.svg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#fff",
+  "sale": 0.3,
+  "properties": [
+    {
+      "size": "S",
+      "price": 50
+    },
+    {
+      "size": "M",
+      "price": 57
+    },
+    {
+      "size": "L",
+      "price": 60
+    }
+  ],
+  "images": [],
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "660e30a84d3d12cf9b22ecc7"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69c"
+  },
+  "name": "Colorful Dress",
+  "image": "product5.svg",
+  "designer": "Katha",
+  "review": 0,
+  "quantity": 100,
+  "color": "#80B0D5",
+  "sale": 0.15,
+  "properties": [
+    {
+      "size": "S",
+      "price": 24.7
+    },
+    {
+      "size": "M",
+      "price": 34.7
+    }
+  ],
+  "images": [],
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "660e31634d3d12cf9b22ecc9"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69c"
+  },
+  "name": "White Shirt",
+  "image": "product6.svg",
+  "designer": "Abraham",
+  "review": 0,
+  "quantity": 100,
+  "color": "#fff",
+  "sale": 0.1,
+  "properties": [
+    {
+      "size": "S",
+      "price": 155.5
+    },
+    {
+      "size": "M",
+      "price": 165.5
+    }
+  ],
+  "images": [],
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "660e32104d3d12cf9b22ecca"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69c"
+  },
+  "name": "Rounded Red Hat",
+  "image": "product7.svg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#000",
+  "sale": 0,
+  "properties": [
+    {
+      "size": "No Size",
+      "price": 8.5
+    }
+  ],
+  "images": [],
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "660e39bf4d3d12cf9b22eccb"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69c"
+  },
+  "name": "Linen-blend Shirt",
+  "image": "product8.svg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 10,
+  "color": "#000",
+  "sale": 0.2,
+  "properties": [
+    {
+      "size": "S",
+      "price": 60
+    },
+    {
+      "size": "M",
+      "price": 65.5
+    }
+  ],
+  "images": [],
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "660e436b4d3d12cf9b22eccc"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69c"
+  },
+  "name": "Long-sleeve Coat",
+  "image": "product9.svg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#000",
+  "sale": 0.1,
+  "properties": [
+    {
+      "size": "S",
+      "price": 62
+    },
+    {
+      "size": "M",
+      "price": 75
+    }
+  ],
+  "images": [],
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "660e451e4d3d12cf9b22ecd3"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69b"
+  },
+  "name": "Winter Outfits Men",
+  "image": "Winter Outfits Men.jpg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#7C6156",
+  "sale": 0.2,
+  "properties": [
+    {
+      "size": "No Size",
+      "price": 92
+    }
+  ],
+  "images": [],
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "660e457f4d3d12cf9b22ecd4"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69b"
+  },
+  "name": "Shawl-Collar Ribbed Wool Cardigan",
+  "image": "TOM FORD Shawl-Collar Ribbed Wool Cardigan.jpg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#1F232E",
+  "sale": 0.15,
+  "properties": [
+    {
+      "size": "S",
+      "price": 25
+    },
+    {
+      "size": "M",
+      "price": 36
+    }
+  ],
+  "images": [],
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "660e45ce4d3d12cf9b22ecd5"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69b"
+  },
+  "name": "Yoga clothes",
+  "image": "yoga-clothes.jpg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#26253F",
+  "sale": 0,
+  "properties": [
+    {
+      "size": "M",
+      "price": 40
+    }
+  ],
+  "images": [],
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "660e461d4d3d12cf9b22ecd7"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69b"
+  },
+  "name": "casual outfit men",
+  "image": "casual outfit men.jpg",
+  "designer": "Al Karam",
+  "review": 41000,
+  "price": 8,
+  "quantity": 100,
+  "color": "#000",
+  "sale": 0.25,
+  "properties": [
+    {
+      "size": "S",
+      "price": 50
+    },
+    {
+      "size": "M",
+      "price": 62.5
+    }
+  ],
+  "images": [],
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "660e46654d3d12cf9b22ecd8"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69b"
+  },
+  "name": "Gym Tiempo Libre",
+  "image": "Gym Tiempo Libre.jpg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#AAAFB2",
+  "sale": 0,
+  "properties": [
+    {
+      "size": "S",
+      "price": 60
+    },
+    {
+      "size": "M",
+      "price": 67.5
+    }
+  ],
+  "images": [],
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "660e46b24d3d12cf9b22ecd9"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69b"
+  },
+  "name": "tracksuit track polo",
+  "image": "tracksuit track polo.jpg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#CDCDCD",
+  "sale": 0.1,
+  "properties": [
+    {
+      "size": "S",
+      "price": 80
+    },
+    {
+      "size": "M",
+      "price": 85
+    }
+  ],
+  "images": [],
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "660e472e4d3d12cf9b22ecdc"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69d"
+  },
+  "name": "Midi Rings",
+  "image": "Midi Rings.jpg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#E19D89",
+  "sale": 0,
+  "properties": [
+    {
+      "size": "No Size",
+      "price": 20
+    }
+  ],
+  "images": [],
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "660e48444d3d12cf9b22ecde"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69d"
+  },
+  "name": "Equestrian Leather Tote Bag",
+  "image": "Equestrian Leather Tote Bag.jpg",
+  "designer": "tiend",
+  "review": 0,
+  "quantity": 80,
+  "color": "#882D28",
+  "sale": 0,
+  "properties": [
+    {
+      "size": "No Size",
+      "price": 205
+    }
+  ],
+  "images": []
+},
+{
+  "_id": {
+    "$oid": "660e48934d3d12cf9b22ecdf"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69d"
+  },
+  "name": "Grey Bee Watch",
+  "image": "Grey Bee Watch.jpg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#FFF1E0",
+  "sale": 0,
+  "properties": [
+    {
+      "size": "No Size",
+      "price": 150
+    }
+  ],
+  "images": []
+},
+{
+  "_id": {
+    "$oid": "660e48e74d3d12cf9b22ece0"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69d"
+  },
+  "name": "cute glasses",
+  "image": "cute glasses.jpg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#CCC3BA",
+  "sale": 0,
+  "properties": [
+    {
+      "size": "No Size",
+      "price": 125
+    }
+  ],
+  "images": []
+},
+{
+  "_id": {
+    "$oid": "660e492c4d3d12cf9b22ece1"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69d"
+  },
+  "name": "Moon Barrette",
+  "image": "Moon Barrette.jpg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#D7BA9A",
+  "sale": 0.1,
+  "properties": [
+    {
+      "size": "No Size",
+      "price": 10
+    }
+  ],
+  "images": []
+},
+{
+  "_id": {
+    "$oid": "660e496e4d3d12cf9b22ece2"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69d"
+  },
+  "name": "Cute Bracelets",
+  "image": "Cute Bracelets.jpg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#CABCAB",
+  "sale": 0,
+  "properties": [
+    {
+      "size": "No Size",
+      "price": 15
+    }
+  ],
+  "images": []
+},
+{
+  "_id": {
+    "$oid": "660e4a544d3d12cf9b22ece6"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69e"
+  },
+  "name": "masculine tie",
+  "image": "masculine tie.jpg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#FD809B",
+  "sale": 0.1,
+  "properties": [
+    {
+      "size": "No Size",
+      "price": 36
+    }
+  ],
+  "images": []
+},
+{
+  "_id": {
+    "$oid": "660e4a984d3d12cf9b22ece7"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69e"
+  },
+  "name": "watch for men",
+  "image": "watch.jpg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#84180C",
+  "sale": 0,
+  "properties": [
+    {
+      "size": "No Size",
+      "price": 206
+    }
+  ],
+  "images": []
+},
+{
+  "_id": {
+    "$oid": "660e4ad14d3d12cf9b22ece8"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69e"
+  },
+  "name": "Leather shoes",
+  "image": "Leather shoes.jpg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#A07973",
+  "sale": 0,
+  "properties": [
+    {
+      "size": "No Size",
+      "price": 259.99
+    }
+  ],
+  "images": []
+},
+{
+  "_id": {
+    "$oid": "660e4b034d3d12cf9b22ece9"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69e"
+  },
+  "name": "belt for men",
+  "image": "belt.jpg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#000",
+  "sale": 0,
+  "properties": [
+    {
+      "size": "No Size",
+      "price": 99
+    }
+  ],
+  "images": []
+},
+{
+  "_id": {
+    "$oid": "660e4b4e4d3d12cf9b22ecea"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69e"
+  },
+  "name": "suitcase for men",
+  "image": "vali for men.jpg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#610605",
+  "sale": 0.1,
+  "properties": [
+    {
+      "size": "No Size",
+      "price": 199
+    }
+  ],
+  "images": []
+},
+{
+  "_id": {
+    "$oid": "660e4b824d3d12cf9b22eceb"
+  },
+  "id_category": {
+    "$oid": "660e037f3f26005ee4a9b69e"
+  },
+  "name": "balo for men",
+  "image": "balo.jpg",
+  "designer": "Al Karam",
+  "review": 0,
+  "quantity": 100,
+  "color": "#E1CFB8",
+  "sale": 0.25,
+  "properties": [
+    {
+      "size": "No Size",
+      "price": 499
+    }
+  ],
+  "images": []
+}]
